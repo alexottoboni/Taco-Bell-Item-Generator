@@ -28,7 +28,7 @@ $suffix = file('./assets/suffix.txt');
 			?>
 		</h1>
 	</div>
-	<input type="submit" class="btn btn-lg center-block btn-success" onClick="history.go(0)" name="generate" value="generate">
+	<input type="submit" class="btn btn-lg center-block btn-success" onClick="history.go(0)" name="Generate" value="Generate">
 	
 	</div>
 </body>
