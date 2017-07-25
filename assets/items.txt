@@ -5,3 +5,7 @@ Salad
 Nacho
 Chalupa
 Crunchwrap
+Mexican Pizza
+Empanada
+Enchirito
+Quesadilla
