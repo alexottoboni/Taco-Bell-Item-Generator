@@ -26,7 +26,7 @@ $suffix = file('./assets/suffix.txt');
 		<h1 class="text-center">
 			<?php
 			echo $prefixes[array_rand($prefixes)];
-            echo $meats[array_rand($meats)];
+			echo $meats[array_rand($meats)];
 			echo $items[array_rand($items)];
 			echo $suffix[array_rand($suffix)];
 			?>
