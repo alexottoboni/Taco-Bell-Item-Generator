@@ -1,0 +1,9 @@
+html body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(157, 71, 255);
+}
+
+.jumbotron {
+    color: rgb(40, 40, 40);
+    background-color: rgb(212,175,255) !important 
+}
