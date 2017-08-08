@@ -1,14 +1,14 @@
-const items = ['Taco', 'Burrito', 'Gordita',
-               'Salad', 'Nacho', 'Chalupa',
-               'Crunchwrap', 'Mexican Pizza', 'Empanada',
-               'Enchirito', 'Quesadilla'],
-      meats = ['Chicken', 'Beef', 'Bean', 'Doritos'],
-      prefixes = ['Breakfast', 'BLT', 'Fiery',
+const prefixes = ['Breakfast', 'BLT', 'Fiery',
                   'Locos', 'Cool Ranch', 'Nacho Cheese',
                   'Crunchy', 'Beefy', 'Fritos', 'Smothered',
                   'Cheesy', 'Fiesta', 'XXL',
                   'Triple Layer', 'Spicy', 'Cheddar',
                   'Grilled', 'Baja'],
+      meats = ['Chicken', 'Beef', 'Bean', 'Doritos', 'Tofu'],
+      items = ['Taco', 'Burrito', 'Gordita',
+               'Salad', 'Nacho', 'Chalupa',
+               'Crunchwrap', 'Mexican Pizza', 'Empanada',
+               'Enchirito', 'Quesadilla'],
       suffixes = ['Supreme', 'Cantina', 'Slider', 'Box', '12 pack', 'Crunch'];
 
 const getRandomElement = arr => arr[Math.floor(Math.random() * arr.length)];
