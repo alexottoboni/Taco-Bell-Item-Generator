@@ -7,3 +7,12 @@ html body {
     color: rgb(40, 40, 40);
     background-color: rgb(212,175,255) !important 
 }
+
+#tacobell-item {
+   animation: move 1.0s;
+}
+
+@keyframes move {
+   from { margin-left: -1000px; }
+   to {margin-left: 0px; }
+}
