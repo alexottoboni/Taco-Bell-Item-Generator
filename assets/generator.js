@@ -19,6 +19,12 @@ function generateItem() {
 
 function setItemOnscreen() {
   const main_text_field = document.getElementById('tacobell-item');
+  console.log(main_text_field);
+  main_text_field.style.animation = 'none';
+  setTimeout(function() {
+    main_text_field.style.animation = '';
+  }, 10);
+
   main_text_field.innerHTML = generateItem();
   if (main_text_field.innerHTML.indexOf("XXL") !== -1) {
     main_text_field.style.fontSize = "100pt";
@@ -27,14 +33,9 @@ function setItemOnscreen() {
   }
 
   if (main_text_field.innerHTML.indexOf("Fiery") !== -1) {
-    main_text_field.style.color = "rgb(240, 0, 0)";
+    main_text_field.style.color = "rgb(153, 0, 0)";
   } else {
-    main_text_field.style.color = "rgb(40, 40, 40)";
+    main_text_field.style.color = "rgb(30, 30, 30)";
   }
 
-  console.log(main_text_field);
-  main_text_field.style.animation = 'none';
-  setTimeout(function() {
-    main_text_field.style.animation = '';
-  }, 10);
 }

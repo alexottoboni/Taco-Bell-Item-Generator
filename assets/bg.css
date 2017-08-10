@@ -1,18 +1,38 @@
 html body {
-    color: rgb(255, 255, 255);
-    background-color: rgb(157, 71, 255);
+    font-family: 'franchise', sans-serif;
+    color: rgb(240, 240, 240);
+    background-color: rgb(134, 20, 172);
+}
+
+@font-face {
+    font-family: 'franchise';
+    src: url("Franchise-Bold.ttf");
 }
 
 .jumbotron {
-    color: rgb(40, 40, 40);
-    background-color: rgb(212,175,255) !important;
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 70, 222) !important;
 }
 
 #tacobell-item {
-   animation: move 1.0s;
+   animation: move 1.5s;
 }
 
 @keyframes move {
-   from { margin-left: -1000px; }
-   to {margin-left: 0px; }
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+.image {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+
+.imageOne {
+   z-index: 0;
+}
+
+.imageTwo {
+   z-index: 1;
 }
