@@ -20,16 +20,16 @@ function generateItem() {
 function setItemOnscreen() {
   const main_text_field = document.getElementById('tacobell-item');
   main_text_field.innerHTML = generateItem();
-  if (main_text_field.innerHTML.indexOf("XXL") !== -1) {
-    main_text_field.style.fontSize = "100pt";
+  if (main_text_field.innerHTML.indexOf('XXL') !== -1) {
+    main_text_field.style.fontSize = '100pt';
   } else {
-    main_text_field.style.fontSize = "60pt";
+    main_text_field.style.fontSize = '60pt';
   }
 
-  if (main_text_field.innerHTML.indexOf("Fiery") !== -1) {
-    main_text_field.style.color = "rgb(240, 0, 0)";
+  if (main_text_field.innerHTML.indexOf('Fiery') !== -1) {
+    main_text_field.style.color = 'rgb(240, 0, 0)';
   } else {
-    main_text_field.style.color = "rgb(40, 40, 40)";
+    main_text_field.style.color = 'rgb(40, 40, 40)';
   }
 
   console.log(main_text_field);
