@@ -28,7 +28,6 @@ const prefixes = [
     "Nacho",
     "Chalupa",
     "Crunchwrap",
-    "Mexican Pizza",
     "Empanada",
     "Enchirito",
     "Quesadilla",
